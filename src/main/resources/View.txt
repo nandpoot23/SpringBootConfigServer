@@ -1,0 +1,11 @@
+http://localhost:9000/env
+
+we can use either application.properties or application.yml
+when we have commented the application.properties then it will fetch the configuration from application.yml
+
+2017-07-27 16:49:19.221  INFO 5084 --- [           main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2017-07-27 16:49:19.341  INFO 5084 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 9000 (http)
+2017-07-27 16:49:19.343  INFO 5084 --- [           main] .s.b.c.SpringBootConfigServerApplication : Started SpringBootConfigServerApplication in 5.083 seconds (JVM running for 5.828)
+2017-07-27 16:49:54.801  INFO 5084 --- [nio-9000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-07-27 16:49:54.802  INFO 5084 --- [nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2017-07-27 16:49:54.818  INFO 5084 --- [nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 16 ms

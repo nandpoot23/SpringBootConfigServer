@@ -1,0 +1,25 @@
+server:
+  port: 9000
+
+logging:
+  level:
+    org.springframework.cloud: 'DEBUG'
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/nandpoot23/SpringBootConfigServerRepo.git
+          searchPaths: "*"
+          
+security:
+  basic:
+    enabled: true
+  user:
+    name: config_client
+    password: config
+
+management:
+  security:
+    enabled: false
